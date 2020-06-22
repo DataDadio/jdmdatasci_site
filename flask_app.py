@@ -7,5 +7,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Data Nerds!'
+    return 'Hello Data Nerds! This site is currently under maintenance :/ '
 
