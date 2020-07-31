@@ -8,4 +8,8 @@ app.config["DEBUG"] = True
 def index():
     return render_template("main_page.html")
 
+@app.route("/gallery/")
+def gallery():
+    return render_template("gallery_page.html")
+
 
